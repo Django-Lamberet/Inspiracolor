@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    color: rgb(171, 183, 236);
+}
+
+.grille {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+   
+}
+
+.bandeau {
+    width: 10%;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.centre {
+    width: 75%;
+}
+
+.historique {
+    width: 15%;
+    margin-right: 1%;
+}
+
+.centre, .historique {
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 2em;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(100deg,rgb(78, 78, 146), rgb(21, 20, 68));
+}
+
+.historique , .centre, .bandeau {
+    background-color: rgb(0, 0, 26);
+}
+
+.palette {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    padding-top: 45px;
+}
+
+.listeBouton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20vh;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.generate {
+    border: 1px white;
+    border-radius: 25px;
+    background-color: rgb(96, 130, 184);
+    font-size: 0.5em;
+    text-align: center;
+    padding: 10px;
+    height: 20px;
+}
+
+.boutonsDroite {
+    margin-left: 1vw;
+}
+
+.colorGrille {
+    display: grid; 
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 7%;
+    grid-template-columns: 18.4% 18.4% 18.4% 18.4% 18.4%;
+    grid-template-rows: 140% 10%;
+    gap: 2%;
+}
+
+.color  {
+    background-color: white;
+}
+
+.hexaRgb {
+    font-size: 0.7em;
+}
+
+.grilleHistorique {
+    display: grid;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px;
+    grid-template-columns: 40px 40px 40px 40px 40px;
+    justify-content: center;
+    padding-top: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 4%;
+}
+
+.caseHistorique {
+    background-color: white;
+    height: 40px;
+}
+

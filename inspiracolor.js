@@ -1,1 +1,1 @@
- console.log(document.querySelector("#jour"));
+ console.log(document.querySelectorAll(".color"));
